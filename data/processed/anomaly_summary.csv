@@ -1,0 +1,8 @@
+Anomaly_Type,Anomaly_Category,Record_Count
+Global Sales,Normal,14705
+Global Sales,High Sales Outlier,1893
+Regional Sales,Regionally Concentrated,9060
+Regional Sales,Normal,7538
+Engagement vs Sales,Normal,415
+Engagement vs Sales,High Engagement - Low Sales,7
+Engagement vs Sales,Low Engagement - High Sales,6

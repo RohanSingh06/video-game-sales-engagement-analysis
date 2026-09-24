@@ -7,9 +7,3 @@ env/
 
 .ipynb_checkpoints/
 .vscode/
-
-*.db
-*.sqlite
-*.sqlite3
-
-data/processed/
