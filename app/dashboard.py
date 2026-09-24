@@ -161,6 +161,48 @@ st.markdown(
         color: #6f819e !important;
     }
 
+    /* ======================================================
+       SIDEBAR REOPEN CONTROL
+       Keep Streamlit's sidebar toggle accessible after
+       the sidebar has been collapsed.
+       ====================================================== */
+
+    [data-testid="stSidebarCollapsedControl"] {
+        display: flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        position: fixed !important;
+        top: 0.75rem !important;
+        left: 0.75rem !important;
+        z-index: 999999 !important;
+    }
+
+    [data-testid="stSidebarCollapsedControl"] button {
+        display: flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        align-items: center !important;
+        justify-content: center !important;
+        min-width: 2.25rem !important;
+        min-height: 2.25rem !important;
+        border-radius: 8px !important;
+        background: #111a2b !important;
+        border: 1px solid #2a3952 !important;
+        color: #e8edf7 !important;
+        z-index: 999999 !important;
+    }
+
+    [data-testid="stSidebarCollapsedControl"] button:hover {
+        background: #1b2940 !important;
+        border-color: #4da3ff !important;
+    }
+
+    [data-testid="stSidebarCollapseButton"] {
+        visibility: visible !important;
+        opacity: 1 !important;
+        z-index: 999999 !important;
+    }
+
     /* Radio navigation */
     section[data-testid="stSidebar"] [data-testid="stWidgetLabel"] {
         color: #6f819e !important;
