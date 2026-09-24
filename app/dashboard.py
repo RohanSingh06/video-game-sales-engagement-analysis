@@ -167,7 +167,7 @@ st.markdown(
        the sidebar has been collapsed.
        ====================================================== */
 
-    [data-testid="stSidebarCollapsedControl"] {
+    div[data-testid="collapsedControl"] {
         display: flex !important;
         visibility: visible !important;
         opacity: 1 !important;
@@ -177,7 +177,7 @@ st.markdown(
         z-index: 999999 !important;
     }
 
-    [data-testid="stSidebarCollapsedControl"] button {
+    div[data-testid="collapsedControl"] button {
         display: flex !important;
         visibility: visible !important;
         opacity: 1 !important;
@@ -192,7 +192,7 @@ st.markdown(
         z-index: 999999 !important;
     }
 
-    [data-testid="stSidebarCollapsedControl"] button:hover {
+    div[data-testid="collapsedControl"] button:hover {
         background: #1b2940 !important;
         border-color: #4da3ff !important;
     }
